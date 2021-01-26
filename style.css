@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #8B0000;
 }
 
 .container-slide{
@@ -9,10 +10,23 @@
     width: 50vw;
     height: 50vh;
     background-color: black;
-    margin: 20vh auto;
+    margin: 5vh auto;
     border-radius: 10px;
     box-shadow: 0 20px 30px black;
     border: 5px solid black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+h1{
+    color: yellow;
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container-items {
